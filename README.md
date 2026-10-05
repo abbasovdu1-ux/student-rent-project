@@ -4,7 +4,7 @@
 StudentRent ist eine Web-Plattform fuer Studierende zur Vermittlung und Suche von WG-Zimmern und Wohnungen in Berlin.
 
 ## Tech-Stack
-- **Backend**: Java 24, Spring Boot, Gradle
+- **Backend**: Java 21, Spring Boot, Gradle
 - **Frontend**: Vue.js, Node.js, Vite
 - **Datenbank**: PostgreSQL
 

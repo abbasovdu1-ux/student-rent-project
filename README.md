@@ -1,7 +1,7 @@
 ﻿# StudentRent - WebTech Projekt
 
 ## Projektbeschreibung
-StudentRent ist eine Web-Plattform fuer Studierende zur Vermittlung und Suche von WG-Zimmern und Wohnungen in Berlin.
+StudentRent ist eine Web-Plattform für Studierende zur Vermittlung und Suche von WG-Zimmern und Wohnungen in Berlin.
 
 ## Tech-Stack
 - **Backend**: Java 21, Spring Boot, Gradle

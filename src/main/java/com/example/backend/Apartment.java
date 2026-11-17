@@ -23,23 +23,23 @@ public class Apartment {
     private String type;        // "Langzeit" oder "Kurzzeit"
     private String city;
     private String district;
-    private String space;       // z.B. "18 m²"
+    private String space;       // z.B. "18 mÂ²"
     private String phone;
 
     @Column(length = 2000)
     private String description;
 
-    @Column(length = 1000)
+    @Column(columnDefinition = "TEXT")
     private String imageUrl;
 
     // Echte Account-Daten des Vermieters
     private String landlordName;
     private String memberSince;
 
-    // Echter System-Zeitstempel vom Server (für "Neu", "vor 5 Min.", "vor 2 Std.")
+    // Echter System-Zeitstempel vom Server (fÃ¼r "Neu", "vor 5 Min.", "vor 2 Std.")
     private Instant createdAt;
 
-    // Wird automatisch vor dem Speichern in PostgreSQL ausgeführt
+    // Wird automatisch vor dem Speichern in PostgreSQL ausgefÃ¼hrt
     @PrePersist
     protected void onCreate() {
         if (this.createdAt == null) {
